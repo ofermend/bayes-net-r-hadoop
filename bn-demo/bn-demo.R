@@ -78,8 +78,7 @@ map_func <- function(., values)
 		# Ignore if row does not have all fields
 		if (length(fvec)<15) { next; }
         
-        # Create new key from "age"+"country" and add to key/val list for output
-        names(fvec)=c("age", "type_employer", "fnlwgt", "education", "education_num","marital", "occupation", "relationship", "race","sex", "capital_gain", "capital_loss", "hr_per_week","country", "income")
+        # Create new random key
 		key = floor(runif(1,0,NUM_REDUCERS))
 		out_klist = c(out_klist, key)
 		out_vlist = c(out_vlist, v)
