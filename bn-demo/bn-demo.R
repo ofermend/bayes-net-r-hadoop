@@ -78,7 +78,7 @@ map_func <- function(., values)
 		# Ignore if row does not have all fields
 		if (length(fvec)<15) { next; }
         
-        # Create new random key
+        	# Create new random key, and output key/value
 		key = floor(runif(1,0,NUM_REDUCERS))
 		out_klist = c(out_klist, key)
 		out_vlist = c(out_vlist, v)
