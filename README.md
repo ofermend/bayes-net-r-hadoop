@@ -2,7 +2,7 @@
 
 Welcome to my demo of Bayesian Networks with R and Hadoop.
 
-This page is accompanying my 2014 Hadoop Summit <a href="http://www.slideshare.net/slideshow/embed_code/35533375">talk</a> width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>, about the same topic. In this page, I provide more details about the implementation, so that you can do-it-yourself. For the demo, I use the famous adult dataset. Please note that this dataset is not really large in the big-data sense, but I used it to exemplify the technique used, in a way that is easy to replicate the exercise on a single-node VM sandbox such as <a href=http://hortonworks.com/products/hortonworks-sandbox/>HDP Sandbox</a>
+This page is accompanying my 2014 Hadoop Summit <a href="http://www.slideshare.net/slideshow/embed_code/35533375">talk</a>, about the same topic. In this page, I provide more details about the implementation, so that you can do-it-yourself. For the demo, I use the famous adult dataset. Please note that this dataset is not really large in the big-data sense, but I used it to exemplify the technique used, in a way that is easy to replicate the exercise on a single-node VM sandbox such as <a href=http://hortonworks.com/products/hortonworks-sandbox/>HDP Sandbox</a>
 
 
 <h2>Installation</h2>
