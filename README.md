@@ -102,7 +102,6 @@ map_func <- function(., vals)
         for (v in vals) {
                 fvec = unlist(strsplit(v, ',', fixed=T))
                 if (length(fvec)<15) { next; }
-                names(fvec)=c("age", "type_employer", "fnlwgt", "education", "education_num","marital", "occupation", "relationship", "race","sex", "capital_gain", "capital_loss", "hr_per_week","country", "income")
                 key = floor(runif(1,0,MAX_REDUCERS))
                 key_list = c(key_list, key)
                 val_list = c(val_list, v)
